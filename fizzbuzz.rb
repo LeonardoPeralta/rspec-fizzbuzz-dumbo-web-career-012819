@@ -8,6 +8,6 @@ def fizzbuzz(x)
   elsif ((x % 3 == 0) && (x % 5 == 0))
     return 'FizzBuzz'
   else
-    return x
+    return false
   end
 end
