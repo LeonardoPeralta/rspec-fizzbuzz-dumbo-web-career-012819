@@ -3,9 +3,9 @@
 def fizzbuzz(x)
     if (x % 3 == 3)
     return 'Fizz'
-  elsif x % 5== 5
+  elsif (x % 5== 5)
     return 'Buzz'
-  elsif x % 3 == 3 &&  x % 5== 5
+  elsif (x % 3 == 3) && (x % 5== 5)
     return 'FizzBuzz'
   else
     return x
